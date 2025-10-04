@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import {Routes,Route} from 'react-router-dom';
 import Cart from './pages/cart/Cart';
 import PlaceOrder from './pages/placeOrder/Placeorder';
-import Home from './pages/home/home';
+import Home from './pages/home/Home';
 import Footer from './components/footer/Footer';
 import Loginpopup from './components/loginpopup/Loginpopup';
 import Verify from './pages/verify/Verify';
