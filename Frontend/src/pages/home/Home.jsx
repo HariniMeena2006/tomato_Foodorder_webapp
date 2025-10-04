@@ -1,6 +1,6 @@
 import React from 'react'
 import  { useState } from 'react';
-import Header from '../../components/header/header'
+import Header from '../../components/header/Header'
 import Exploremenu from '../../components/exploreMenu/Exploremenu'
 import Fooddisplay from '../../components/food_display/Fooddisplay'
 import Appdownload from '../../components/appdownload/Appdownload';
