@@ -1,0 +1,81 @@
+/* MyOrders.css */
+
+/* Main container */
+.my-orders {
+  padding: 2rem;
+  background-color: #fff5f0; /* soft tomato-ish background */
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Page title */
+.my-orders h2 {
+  text-align: center;
+  color: #F37254; /* Tomato color */
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Container for all orders */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Individual order card */
+.my-orders-orders {
+  background-color: #fff;
+  border: 2px solid #F37254;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0px 4px 12px rgba(243, 114, 84, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.my-orders-orders:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(243, 114, 84, 0.4);
+}
+
+/* Parcel icon */
+.my-orders-orders img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+/* Items list */
+.my-orders-orders p {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+}
+
+/* Order status */
+.my-orders-orders span {
+  color: #F37254;
+  margin-right: 0.3rem;
+}
+
+/* Track button */
+.my-orders-orders button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: #F37254;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.my-orders-orders button:hover {
+  background-color: #d95b3b;
+}

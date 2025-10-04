@@ -1,0 +1,36 @@
+.food-display{
+    margin-top: 30px;
+}
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.food-display-list{
+    display: grid;
+    /* Force exactly 4 columns on desktop */
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 30px;
+    gap:30px;
+    row-gap:30px;
+}
+
+/* Responsive: 3 columns on large tablets */
+@media (max-width: 1200px) {
+  .food-display-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Responsive: 2 columns on tablets */
+@media (max-width: 900px) {
+  .food-display-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Responsive: 1 column on phones */
+@media (max-width: 550px) {
+  .food-display-list {
+    grid-template-columns: 1fr;
+  }
+}
