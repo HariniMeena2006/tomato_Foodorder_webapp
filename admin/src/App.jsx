@@ -4,7 +4,7 @@ import Sidebar from './components/sidebar/Sidebar.jsx';
 import {Routes,Route} from 'react-router-dom'
 import Add from "./pages/add/Add.jsx"
 import List from './pages/list/List.jsx';
-import Orders from './pages/orders/orders.jsx';
+import Orders from './pages/orders/Orders.jsx';
 import { ToastContainer} from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css"
   
